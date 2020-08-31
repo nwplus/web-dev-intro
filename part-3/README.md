@@ -1,9 +1,10 @@
 # Part 3: Adding CSS & implementing responsive web design
+
 1. Create a file called `styles.css` in the same directory as `index.html`
 2. Add the following line **before** the enclosing `</head>` tag in `index.html`
 
 ```html
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css" />
 ```
 
 **Element Selector**
@@ -11,17 +12,17 @@
 If we add this into `styles.css`, all of the text inside the enclosing `p` elements will be italicized
 
 ```css
-p { 
-font-style: italic;
+p {
+  font-style: italic;
 }
 ```
 
 - `p` is the selector - this is the element we want to stylize
 - each of the lines within the curly brackets `{ }` is a particular style that will be applied to the element selected (`p` in this case)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d4ceee9-9501-43f0-9e30-634ddf8c32b4/Screen_Shot_2020-08-06_at_4.41.28_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d4ceee9-9501-43f0-9e30-634ddf8c32b4/Screen_Shot_2020-08-06_at_4.41.28_PM.png)
+<img width="735" alt="Screen_Shot_2020-08-06_at_4 41 28_PM" src="https://user-images.githubusercontent.com/38872354/91757845-dda45900-eb83-11ea-9b74-ddf3db460fbb.png">
 
-While adding a CSS selector will select all HTML elements with a selected attribute, this may not be what we want. We will instead give the `p` element a specific identity that we can style. We will do this by adding a `class` attribute. 
+While adding a CSS selector will select all HTML elements with a selected attribute, this may not be what we want. We will instead give the `p` element a specific identity that we can style. We will do this by adding a `class` attribute.
 
 **Class Selector**
 
@@ -29,8 +30,8 @@ Classes define particular styles for all elements that share the same class name
 
 ```css
 .cool-class {
-font-weight: bold;
-    color: green;
+  font-weight: bold;
+  color: green;
 }
 ```
 
@@ -40,7 +41,7 @@ Corresponding HTML code if we wanted to use this class in HTML
 <h1 class="cool-class">Hemlo frens</h1>
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/468e229d-7e69-4a25-8f14-ef54f8a82bf2/Screen_Shot_2020-08-06_at_4.42.30_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/468e229d-7e69-4a25-8f14-ef54f8a82bf2/Screen_Shot_2020-08-06_at_4.42.30_PM.png)
+<img width="420" alt="Screen_Shot_2020-08-06_at_4 42 30_PM" src="https://user-images.githubusercontent.com/38872354/91757850-de3cef80-eb83-11ea-9122-10013450f356.png">
 
 **ID Selector**
 
@@ -48,7 +49,7 @@ Similar to class selectors, we can set an ID to an HTML element using the id att
 
 ```css
 #cool-id {
-color: blue;
+  color: blue;
 }
 ```
 
@@ -58,7 +59,7 @@ Using this id in an HTML element
 <p id="cool-id">much amaze</p>
 ```
 
-😎 ***Pro tip***
+😎 **_Pro tip_**
 
 You might think that ID and class do the exact same thing - you're not wrong! They just have different usages
 
@@ -86,9 +87,9 @@ To make this table, we do the following
 
 ```css
 .grid-table {
-display: grid;
-grid-template-rows: auto auto;
-grid-template-columns: auto auto auto;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
 }
 ```
 
@@ -109,7 +110,7 @@ HTML
 </div>
 ```
 
-😎 ***Pro tip***
+😎 **_Pro tip_**
 
 You can use percentages/pixels instead of auto, e.g.:
 
@@ -129,22 +130,22 @@ Example
 
 ```css
 .grid {
-display: grid;
-grid-template-columns: 100%;
+  display: grid;
+  grid-template-columns: 100%;
 }
 
 @media (min-width: 600px) {
-// breakpoint 1: run this code if the minimum width of screen is 600px
-.grid {
+  // breakpoint 1: run this code if the minimum width of screen is 600px
+  .grid {
     grid-template-columns: 50% 50%;
-}
+  }
 }
 
 @media (min-width: 900px) {
-// breakpoint 2: run this code if the screen is at least 900px wide
-.grid {
+  // breakpoint 2: run this code if the screen is at least 900px wide
+  .grid {
     grid-template-columns: 1fr 1fr 1fr;
-}
+  }
 }
 ```
 
@@ -157,91 +158,91 @@ grid-template-columns: 100%;
 
 ```html
 <body>
-    <div class="container">
+  <div class="container">
     <!-- all of our existing content goes here -->
-    </div>
+  </div>
 </body>
 ```
 
 ```css
 .container {
-    max-width: 840px;
-    margin: 0 auto;
+  max-width: 840px;
+  margin: 0 auto;
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34b870f6-26bb-49eb-a330-ee14854211d7/Screen_Shot_2020-08-06_at_4.45.57_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34b870f6-26bb-49eb-a330-ee14854211d7/Screen_Shot_2020-08-06_at_4.45.57_PM.png)
+<img width="1278" alt="Screen_Shot_2020-08-06_at_4 45 57_PM" src="https://user-images.githubusercontent.com/38872354/91757853-ded58600-eb83-11ea-9b9e-4f951d069902.png">
 
 - `margin: 0 auto;` means no margin for top-bottom, and auto margins for left-right
+
 2. Now we'd like to center-align our intro headline
+
 - Let's make a new class called `intro`
 
 ```html
 <div class="intro">
-    <!-- content goes here -->
+  <!-- content goes here -->
 </div>
 ```
 
 ```css
 .intro {
-    text-align: center;
+  text-align: center;
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f17bb90-f2d4-4a20-99e2-89bb4c5f4d5c/Screen_Shot_2020-08-06_at_5.02.06_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f17bb90-f2d4-4a20-99e2-89bb4c5f4d5c/Screen_Shot_2020-08-06_at_5.02.06_PM.png)
+<img width="1278" alt="Screen_Shot_2020-08-06_at_5 02 06_PM" src="https://user-images.githubusercontent.com/38872354/91757856-df6e1c80-eb83-11ea-90d6-ea06d639c2b5.png">
 
 3. Let's arrange the about portionto have two columns with the first half on the left and second half on the right
 
 ```html
 <div class="about-grid">
-    <div class="about-section">
-        <h3>I love nwPlus. Very amaze.</h3>
-    </div>
-    <div class="about-section">
-        <h3>Some of my interests include:</h3>
-            <ul class="about-list">
-                <li>Doggos</li>
-                <li>Dogspotting</li>
-                <li>Smol puppers</li>
-            </ul>
-    </div>
+  <div class="about-section">
+    <h3>I love nwPlus. Very amaze.</h3>
+  </div>
+  <div class="about-section">
+    <h3>Some of my interests include:</h3>
+    <ul class="about-list">
+      <li>Doggos</li>
+      <li>Dogspotting</li>
+      <li>Smol puppers</li>
+    </ul>
+  </div>
 </div>
 ```
 
 ```css
 .about-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .about-section {
-    text-align: center;
-    text-decoration: none
+  text-align: center;
+  text-decoration: none;
 }
 
 .about-list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/968b353c-56a5-455a-a48c-452be9cd2b4e/Screen_Shot_2020-08-06_at_5.19.18_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/968b353c-56a5-455a-a48c-452be9cd2b4e/Screen_Shot_2020-08-06_at_5.19.18_PM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/450f5958-9db1-4c95-9011-e723e4570fa1/Screen_Shot_2020-08-06_at_5.20.33_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/450f5958-9db1-4c95-9011-e723e4570fa1/Screen_Shot_2020-08-06_at_5.20.33_PM.png)
+<img width="1272" alt="Screen_Shot_2020-08-06_at_5 19 18_PM" src="https://user-images.githubusercontent.com/38872354/91757857-df6e1c80-eb83-11ea-8db2-b1f189f8dcdb.png">
+<img width="1280" alt="Screen_Shot_2020-08-06_at_5 20 33_PM" src="https://user-images.githubusercontent.com/38872354/91757858-e006b300-eb83-11ea-9603-b5be3cb6d866.png">
 
 4. To simulate a mobile screen, we can do cmd+(or ctrl)shift+m. Notice how the content looks very disproportional, like a zoomed-out version of the desktop site
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/14da7452-0ec2-4e76-bb02-c8ff588944e6/Screen_Shot_2020-08-06_at_5.21.43_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/14da7452-0ec2-4e76-bb02-c8ff588944e6/Screen_Shot_2020-08-06_at_5.21.43_PM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22e7bb39-a42f-45b3-a931-82684608470e/Screen_Shot_2020-08-06_at_5.24.53_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22e7bb39-a42f-45b3-a931-82684608470e/Screen_Shot_2020-08-06_at_5.24.53_PM.png)
+<img width="458" alt="Screen_Shot_2020-08-06_at_5 21 43_PM" src="https://user-images.githubusercontent.com/38872354/91757859-e006b300-eb83-11ea-90c8-ca9f2a68f7ac.png">
+<img width="446" alt="Screen_Shot_2020-08-06_at_5 24 53_PM" src="https://user-images.githubusercontent.com/38872354/91757862-e09f4980-eb83-11ea-9fb7-f4836dc2ae75.png">
 
 - we can make our site more responsive by instructing our browser to show the webpage in mobile size
 - Let's add this `meta` tag before the closing `head` tag
 
 ```html
 <head>
-    <!-- existing content in the <head> element -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- existing content in the <head> element -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 ```
 
@@ -249,102 +250,100 @@ grid-template-columns: 100%;
 - `width=device-width` sets the width of page to follow the screen-width of the device
 - `initial-scale=1.0` sets the initial zoom level when the page is first loaded
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7801bd5a-2a14-49b9-80fa-4b7c8f368c59/Screen_Shot_2020-08-06_at_5.35.41_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7801bd5a-2a14-49b9-80fa-4b7c8f368c59/Screen_Shot_2020-08-06_at_5.35.41_PM.png)
+<img width="455" alt="Screen_Shot_2020-08-06_at_5 35 41_PM" src="https://user-images.githubusercontent.com/38872354/91757863-e137e000-eb83-11ea-8cce-9ffd46e54a2f.png">
 
 5. Another thing we'd like to do is have the about sections one below another on mobile devices. Let's write a media query for that, defining the breakpoint as `480px`
 
 ```css
 @media (max-width: 480px) {
-    .about-grid {
-        grid-template-columns: 100%;
-    }
+  .about-grid {
+    grid-template-columns: 100%;
+  }
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78fcbea3-782b-4644-8ee4-ec0067ce264a/Screen_Shot_2020-08-06_at_5.39.27_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78fcbea3-782b-4644-8ee4-ec0067ce264a/Screen_Shot_2020-08-06_at_5.39.27_PM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0ffa644-ef57-44c3-adb0-4d636082710e/Screen_Shot_2020-08-06_at_5.40.09_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0ffa644-ef57-44c3-adb0-4d636082710e/Screen_Shot_2020-08-06_at_5.40.09_PM.png)
+<img width="353" alt="Screen_Shot_2020-08-06_at_5 39 27_PM" src="https://user-images.githubusercontent.com/38872354/91757864-e137e000-eb83-11ea-9e58-c2107c1ea234.png">
+<img width="685" alt="Screen_Shot_2020-08-06_at_5 40 09_PM" src="https://user-images.githubusercontent.com/38872354/91757866-e1d07680-eb83-11ea-8957-76e425b34d52.png">
 
 6. Let's make similar changes to the projects section - 2x2 on desktop, 4x1 on mobile
 
 ```html
 <div>
-    <h3 class="heading">My Pawjects</h3>
-    <div class="projects-grid">
-        <img class="project-image" src="https://via.placeholder.com/300" />
-        <img class="project-image" src="https://via.placeholder.com/300" />
-        <img class="project-image" src="https://via.placeholder.com/300" />
-        <img class="project-image" src="https://via.placeholder.com/300" />
-    </div>
+  <h3 class="heading">My Pawjects</h3>
+  <div class="projects-grid">
+    <img class="project-image" src="https://via.placeholder.com/300" />
+    <img class="project-image" src="https://via.placeholder.com/300" />
+    <img class="project-image" src="https://via.placeholder.com/300" />
+    <img class="project-image" src="https://via.placeholder.com/300" />
+  </div>
 </div>
 ```
 
 ```css
 .heading {
-    text-align: center; 
+  text-align: center;
 }
 
 .projects-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .project-image {
-    justify-self: center;
-    padding: 4%;
+  justify-self: center;
+  padding: 4%;
 }
 @media (max-width: 650px) {
-    .projects-grid {
-        grid-template-columns: 100%;
-    }
+  .projects-grid {
+    grid-template-columns: 100%;
+  }
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1138985e-f0a3-4939-b39b-571e116499b1/Screen_Shot_2020-08-06_at_5.47.49_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1138985e-f0a3-4939-b39b-571e116499b1/Screen_Shot_2020-08-06_at_5.47.49_PM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbcbeba1-c405-44ed-bd2c-d63b74a4e3f7/Screen_Shot_2020-08-06_at_5.47.29_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbcbeba1-c405-44ed-bd2c-d63b74a4e3f7/Screen_Shot_2020-08-06_at_5.47.29_PM.png)
+<img width="1270" alt="Screen_Shot_2020-08-06_at_5 47 29_PM" src="https://user-images.githubusercontent.com/38872354/91757867-e1d07680-eb83-11ea-860f-0bc4b9f6b03d.png">
+<img width="336" alt="Screen_Shot_2020-08-06_at_5 47 49_PM" src="https://user-images.githubusercontent.com/38872354/91757869-e2690d00-eb83-11ea-91f0-162f72af5888.png">
 
 7. Let's split the contact section as well, by 30-70
 
 ```html
 <div>
-    <h3 class="heading">Contacc me</h3>
-    <div class="contact">
-        <div class="links">
-            <h4>Links</h4>
-            <ul class="links-list">
-                <!-- List items -->
-            </ul>
-        </div>
-        <div>
-            <!-- Contact form -->          
-        </div>
+  <h3 class="heading">Contacc me</h3>
+  <div class="contact">
+    <div class="links">
+      <h4>Links</h4>
+      <ul class="links-list">
+        <!-- List items -->
+      </ul>
     </div>
+    <div>
+      <!-- Contact form -->
+    </div>
+  </div>
 </div>
 ```
 
 ```css
 .contact {
-    display: grid;
-    grid-template-columns: 30% 70%;
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 
 .links {
-    justify-self: center;
+  justify-self: center;
 }
 
 .links-list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 @media (max-width: 650px) {
-    .links-and-contact {
-        grid-template-columns: 100%;
-    }
+  .links-and-contact {
+    grid-template-columns: 100%;
+  }
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e46316b6-84e0-4287-ae2f-870a3ccc2be5/Screen_Shot_2020-08-06_at_6.15.16_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e46316b6-84e0-4287-ae2f-870a3ccc2be5/Screen_Shot_2020-08-06_at_6.15.16_PM.png)
+<img width="750" alt="Screen_Shot_2020-08-06_at_6 15 16_PM" src="https://user-images.githubusercontent.com/38872354/91758139-5b686480-eb84-11ea-9a36-ddd89bb93bd2.png">
 
 ‼️ **Challenge** ‼️
