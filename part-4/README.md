@@ -98,19 +98,14 @@
        <div>
          <form action="#">
            <label for="email">
-             **
              <h4 class="form-heading">Email</h4>
-             **
              <input type="email" id="email" placeholder="Enter your email" />
            </label>
            <label for="message">
-             **
              <h4 class="form-heading">Messages</h4>
-             **
              <textarea id="message">Your Message</textarea>
            </label>
            <div **class="submit-button-wrapper">
-             **
              <input type="submit" valid="Send Message" />
            </div>
          </form>

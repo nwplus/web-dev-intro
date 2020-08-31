@@ -1,0 +1,75 @@
+/* For the fonts */
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Text color*/
+body {
+  color: #333333;
+}
+
+/* Background color & content divider*/
+body {
+  background-color: #e2f8ec;
+}
+
+.container > div {
+  margin: 20px auto;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.425),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+/* Styles for profile picture  */
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+  transition: all ease-in-out 0.2s;
+}
+
+.profile-picture:hover {
+  box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+}
+
+/* Styles for the footer  */
+
+form input,
+textarea {
+  padding: 5px;
+  border-radius: 5px;
+  width: 240px;
+}
+
+form {
+  width: 250px;
+  margin: 0 auto;
+}
+
+form input[type='submit'] {
+  width: 250px;
+}
+
+.submit-button-wrapper {
+  margin: 8px 0;
+}
+
+.form-heading {
+  margin-bottom: 8px !important;
+}
