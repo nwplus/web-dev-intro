@@ -192,4 +192,4 @@ body {
 ‼️ **Challenge** ‼️
 
 - Add effects for project thumbnails when the user hovers onto the pictures
-- Introducing some suggestions & ideas to get started (@Alice Kim): [https://www.w3schools.com/howto/howto_css_image_overlay.asp](https://www.w3schools.com/howto/howto_css_image_overlay.asp), [https://codepen.io/nxworld/pen/ZYNOBZ](https://codepen.io/nxworld/pen/ZYNOBZ)
+- Suggestions & ideas to get started: [https://www.w3schools.com/howto/howto_css_image_overlay.asp](https://www.w3schools.com/howto/howto_css_image_overlay.asp), [https://codepen.io/nxworld/pen/ZYNOBZ](https://codepen.io/nxworld/pen/ZYNOBZ)
