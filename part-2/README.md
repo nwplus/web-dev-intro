@@ -80,7 +80,7 @@ The projects section will contain four projects. You'll notice in our wireframe 
 
 ```html
 <div>
-  <h3>My Projects</h3>
+  <h3>Projects</h3>
   <img src="https://via.placeholder.com/300" />
   <img src="https://via.placeholder.com/300" />
   <img src="https://via.placeholder.com/300" />
@@ -119,7 +119,7 @@ For instance, I would put:
 
 ```html
 <div>
-  <h3>Contacc me</h3>
+  <h3>Contacc</h3>
   <p>My Links</p>
   <ul>
     <li>

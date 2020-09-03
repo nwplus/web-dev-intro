@@ -39,7 +39,7 @@
 
    ```html
    <div>
-     <h3 class="projects-heading">My Projects</h3>
+     <h3 class="projects-heading">Projects</h3>
      <div class="projects-grid">
        <img class="project-image" src="images/project-1.jpg" />
        <img class="project-image" src="images/project-2.jpg" />
@@ -86,7 +86,7 @@
 
    ```html
    <div>
-     <h3 class="heading">Contacc me</h3>
+     <h3 class="heading">Contacc</h3>
      <div class="contact">
        <div class="links">
          <h4 **class="form-heading" **>Links</h4>

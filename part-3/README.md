@@ -240,8 +240,8 @@ Example
 - Let's add this `meta` tag before the closing `head` tag
 
 ```html
-<head>
-  <!-- existing content in the <head> element -->
+<head> <meta charset="utf-8">
+  <!-- existing content in the <head> <meta charset="utf-8"> element -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 ```
@@ -269,7 +269,7 @@ Example
 
 ```html
 <div>
-  <h3 class="heading">My Pawjects</h3>
+  <h3 class="heading">Pawjects</h3>
   <div class="projects-grid">
     <img class="project-image" src="https://via.placeholder.com/300" />
     <img class="project-image" src="https://via.placeholder.com/300" />
@@ -307,7 +307,7 @@ Example
 
 ```html
 <div>
-  <h3 class="heading">Contacc me</h3>
+  <h3 class="heading">Contacc</h3>
   <div class="contact">
     <div class="links">
       <h4>Links</h4>

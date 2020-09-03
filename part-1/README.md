@@ -7,11 +7,11 @@
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
+  <head> <meta charset="utf-8">
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>Hello! My name is [your name]</h1>
+    <h1>Hello! My name is [name] ✌️ ✌️</h1>
   </body>
 </html>
 ```
@@ -25,7 +25,7 @@
 6. When you make any changes to `index.html`, you can refresh the newly-opened tab to see your changes. Add the following into the `h1` tag:
 
 ```html
-<h1>Hello! My name is [your name], welcome to my portfolio :)</h1>
+<h1>Hello! My name is [name] ✌️ ✌️, welcome to my portfolio :)</h1>
 ```
 
 7. When you refresh the page, you should see
