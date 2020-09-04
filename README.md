@@ -15,7 +15,7 @@ Hey there! 👋 So you want to learn web development, but don't know where to st
 
 ## Want to learn more? We recommend you check out these resources
 
-- [MDN](https://developer.mozilla.org/en-US/docs/Learn) web docs by [Mozilla](https://www.mozilla.org/en-CA/)
+- Mozilla Developer Network (MDN) [web docs](https://developer.mozilla.org/en-US/docs/Learn)
 - [Self-Learning Resources Wiki](https://resources.nwplus.io/) by [nwPlus](https://www.nwplus.io)
 
 <hr>

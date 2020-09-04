@@ -17,11 +17,13 @@
      border-radius: 50%;
      width: 150px;
      height: 150px;
+     /* offset-x | offset-y | blur-radius | spread-radius | color */
      box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
      transition: all ease-in-out 0.2s;
    }
 
    .profile-picture:hover {
+     /* offset-x | offset-y | blur-radius | spread-radius | color */
      box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
    }
    ```
@@ -38,14 +40,12 @@
 5. Replace the project placeholders with the given images (or your own)
 
    ```html
-   <div>
-     <h3 class="projects-heading">Projects</h3>
-     <div class="projects-grid">
-       <img class="project-image" src="images/project-1.jpg" />
-       <img class="project-image" src="images/project-2.jpg" />
-       <img class="project-image" src="images/project-3.jpg" />
-       <img class="project-image" src="images/project-4.jpg" />
-     </div>
+   <h3 class="heading">Projects</h3>
+   <div class="projects-grid">
+     <img class="project-image" src="images/project-1.jpg" />
+     <img class="project-image" src="images/project-2.jpg" />
+     <img class="project-image" src="images/project-3.jpg" />
+     <img class="project-image" src="images/project-4.jpg" />
    </div>
    ```
 
@@ -105,7 +105,7 @@
              <h4 class="form-heading">Messages</h4>
              <textarea id="message">Your Message</textarea>
            </label>
-           <div **class="submit-button-wrapper">
+           <div class="submit-button-wrapper">
              <input type="submit" valid="Send Message" />
            </div>
          </form>

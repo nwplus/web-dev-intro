@@ -193,15 +193,15 @@ Example
 
 <img width="1278" alt="Screen_Shot_2020-08-06_at_5 02 06_PM" src="https://user-images.githubusercontent.com/38872354/91757856-df6e1c80-eb83-11ea-90d6-ea06d639c2b5.png">
 
-3. Let's arrange the about portionto have two columns with the first half on the left and second half on the right
+3. Let's arrange the about portion to have two columns with the first half on the left and second half on the right
 
 ```html
 <div class="about-grid">
   <div class="about-section">
-    <h3>I love nwPlus. Very amaze.</h3>
+    <p>I love nwPlus. Very amaze.</p>
   </div>
   <div class="about-section">
-    <h3>Some of my interests include:</h3>
+    <p>Some of my interests include:</p>
     <ul class="about-list">
       <li>Doggos</li>
       <li>Dogspotting</li>
@@ -240,8 +240,9 @@ Example
 - Let's add this `meta` tag before the closing `head` tag
 
 ```html
-<head> <meta charset="utf-8">
-  <!-- existing content in the <head> <meta charset="utf-8"> element -->
+<head>
+  <meta charset="utf-8" />
+  <!-- existing content in the <head> element -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 ```
@@ -268,14 +269,12 @@ Example
 6. Let's make similar changes to the projects section - 2x2 on desktop, 4x1 on mobile
 
 ```html
-<div>
-  <h3 class="heading">Pawjects</h3>
-  <div class="projects-grid">
-    <img class="project-image" src="https://via.placeholder.com/300" />
-    <img class="project-image" src="https://via.placeholder.com/300" />
-    <img class="project-image" src="https://via.placeholder.com/300" />
-    <img class="project-image" src="https://via.placeholder.com/300" />
-  </div>
+<h2 class="heading">Pawjects</h2>
+<div class="projects-grid">
+  <img class="project-image" src="https://via.placeholder.com/300" />
+  <img class="project-image" src="https://via.placeholder.com/300" />
+  <img class="project-image" src="https://via.placeholder.com/300" />
+  <img class="project-image" src="https://via.placeholder.com/300" />
 </div>
 ```
 
