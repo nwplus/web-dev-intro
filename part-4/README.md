@@ -158,12 +158,7 @@ body {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.425),
-    rgba(0, 0, 0, 0)
-  );
+  background-color: #f2fff8;
 }
 ```
 
