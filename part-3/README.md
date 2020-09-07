@@ -83,7 +83,7 @@ Example of 2 x 3 table
 
 | 1 	| 2 	| 3 	|   	
 |:---:|:---:|:---:|
-| 4 	| 5 	| 6 	|  
+| **4** 	| **5** 	| **6** 	|  
 
 To make this table, we do the following
 
