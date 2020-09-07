@@ -1,6 +1,8 @@
 # Part 2: Designing & building a wireframe
 
-![portfolio](https://user-images.githubusercontent.com/38872354/91757580-6b337900-eb83-11ea-857b-2c35b0dca80c.jpg)
+<p align="center">
+<img width="400" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.jpg">
+</p>
 
 Let's start with a mockup of how we are going to compartmentalize our page into sections. We roughly have these sections:
 
@@ -30,7 +32,9 @@ We can start with the following code snippet (going in between `<body> </body>`)
 </div>
 ```
 
-<img width="991" alt="Screen_Shot_2020-07-19_at_2 32 45_PM" src="https://user-images.githubusercontent.com/38872354/91757583-6c64a600-eb83-11ea-89f2-2a0bf56886b5.png">
+<p align="center">
+<img width="400" alt="Intro" src="../.screenshots/part-2/2-intro.png">
+</p>
 
 **About**
 
@@ -72,7 +76,9 @@ For instance, for me, I would put:
 
 How this code looks like when you reload your tab on Chrome displaying `index.html`
 
-<img width="642" alt="Screen_Shot_2020-08-06_at_4 39 35_PM" src="https://user-images.githubusercontent.com/38872354/91757586-6c64a600-eb83-11ea-9247-102c29a79533.png">
+<p align="center">
+<img width="400" alt="About section" src="../.screenshots/part-2/3-about.png">
+</p>
 
 **Projects**
 
@@ -90,7 +96,9 @@ The projects section will contain four projects. You'll notice in our wireframe 
 
 How this looks like when you reload your `index.html` tab
 
-<img width="1275" alt="Screen_Shot_2020-07-19_at_2 34 17_PM" src="https://user-images.githubusercontent.com/38872354/91757585-6c64a600-eb83-11ea-90ed-4f05c08e78a4.png">
+<p align="center">
+<img width="560" alt="Projects section" src="../.screenshots/part-2/4-projects.png">
+</p>
 
 **Contact**
 
@@ -158,6 +166,6 @@ Add this code snippet underneath the `</ul>` element from above
 
 After the above is added, this is what our Contact section will look like
 
-<img width="804" alt="Screen_Shot_2020-08-06_at_4 40 52_PM" src="https://user-images.githubusercontent.com/38872354/91757587-6cfd3c80-eb83-11ea-828a-3e06a98ad170.png">
-
-‼️ **Challenge**‼️
+<p align="center">
+<img width="560" alt="Intro" src="../.screenshots/part-2/5-contact.png">
+</p>

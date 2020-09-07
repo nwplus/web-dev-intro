@@ -1,8 +1,8 @@
 <p align="center">
-  <img height="150" src="https://user-images.githubusercontent.com/38872354/92155942-0ecb9600-eddd-11ea-9c32-4400792ea2d2.png">
+  <img height="150" src=".screenshots/nwplus-logo.png">
 </p>
 
-# ✨ Getting Started with Your Portfolio Website 🌌
+# ✨Getting Started with Your Portfolio Website 🌌
 
 Hey there! 👋 So you want to learn web development, but don't know where to start? Worry not, we are here to guide you through the practicalities of web dev by teaching you the fundamentals of HTML/CSS!
 
@@ -10,10 +10,10 @@ Being comfortable with the fundamentals will allow you to pick up popular front-
 
 ## We have split the project into four parts
 
-1. Creating `index.html`
-2. Designing & building a wireframe
-3. Adding CSS & implementing responsive web design
-4. Adding advanced styling
+1. [Creating `index.html`](part-1/README.md)
+2. [Designing & building a wireframe](part-2/README.md)
+3. [Adding CSS & implementing responsive web design](part-3/README.md)
+4. [Adding advanced styling](part-4/README.md)
 
 ## Want to learn more? We recommend you check out these resources
 

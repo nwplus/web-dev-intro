@@ -2,54 +2,58 @@
 
 **Applying placeholders with your own images**
 
-1. To better organize our images, let's make a file called `images` in the root level of our application
-2. Download the images: <link to zip>
-3. Replace the profile picture `<img src="https://via.placeholder.com/150" />` with
+1.  To better organize our images, let's make a file called `images` in the root level of our application
+2.  Download the images: <link to zip>
+3.  Replace the profile picture `<img src="https://via.placeholder.com/150" />` with
 
-   ```html
-   <img src="images/profile-picture.jpg" />
-   ```
+    ```html
+    <img src="images/profile-picture.jpg" />
+    ```
 
-4. Add some styling to the image
+4.  Add some styling to the image
 
-   ```css
-   .profile-picture {
-     border-radius: 50%;
-     width: 150px;
-     height: 150px;
-     /* offset-x | offset-y | blur-radius | spread-radius | color */
-     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
-     transition: all ease-in-out 0.2s;
-   }
+    ```css
+    .profile-picture {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      /* offset-x | offset-y | blur-radius | spread-radius | color */
+      box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+      transition: all ease-in-out 0.2s;
+    }
 
-   .profile-picture:hover {
-     /* offset-x | offset-y | blur-radius | spread-radius | color */
-     box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
-   }
-   ```
+    .profile-picture:hover {
+      /* offset-x | offset-y | blur-radius | spread-radius | color */
+      box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+    }
+    ```
 
-   - `border-radius` sets the border radius of the image
-   - `box-shadow` adds shadows to the image. Check [Mozilla web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) for more details on the syntax
-   - `transition`
-     - `all` means we want to animate all aspects of the image
-     - `ease-in-out` is a timing function that describes the speed of the animation. In this case we want the animation to run for `.2` seconds
-   - `hover` sets properties for when we hover over the image, giving users a more visual feedback
+    - `border-radius` sets the border radius of the image
+    - `box-shadow` adds shadows to the image. Check [Mozilla web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) for more details on the syntax
+    - `transition`
+      - `all` means we want to animate all aspects of the image
+      - `ease-in-out` is a timing function that describes the speed of the animation. In this case we want the animation to run for `.2` seconds
+    - `hover` sets properties for when we hover over the image, giving users a more visual feedback
 
-       <img width="1277" alt="Screen_Shot_2020-08-06_at_6 57 13_PM" src="https://user-images.githubusercontent.com/38872354/91758181-6b804400-eb84-11ea-8111-f0931fba92f7.png">
+<p align="center">
+<img width="560" alt="Example of intro text" src="../.screenshots/part-4/1-intro-with-pfp.png">
+</p>
 
-5. Replace the project placeholders with the given images (or your own)
+5.  Replace the project placeholders with the given images (or your own)
 
-   ```html
-   <h3 class="heading">Projects</h3>
-   <div class="projects-grid">
-     <img class="project-image" src="images/project-1.jpg" />
-     <img class="project-image" src="images/project-2.jpg" />
-     <img class="project-image" src="images/project-3.jpg" />
-     <img class="project-image" src="images/project-4.jpg" />
-   </div>
-   ```
+    ```html
+    <h3 class="heading">Projects</h3>
+    <div class="projects-grid">
+      <img class="project-image" src="images/project-1.jpg" />
+      <img class="project-image" src="images/project-2.jpg" />
+      <img class="project-image" src="images/project-3.jpg" />
+      <img class="project-image" src="images/project-4.jpg" />
+    </div>
+    ```
 
-   <img width="1279" alt="Screen_Shot_2020-08-06_at_6 58 04_PM" src="https://user-images.githubusercontent.com/38872354/91758184-6cb17100-eb84-11ea-86fc-4e194d80fc96.png">
+    <p align="center">
+    <img width="560" alt="Example of intro text" src="../.screenshots/part-4/2-projects-with-thumbnails.png">
+    </p>
 
 **Setting custom fonts**
 
@@ -80,7 +84,9 @@
 
    Now let's refresh the page! Wow ✨
 
-   <img width="1279" alt="Screen_Shot_2020-08-06_at_7 08 06_PM" src="https://user-images.githubusercontent.com/38872354/91758194-71762500-eb84-11ea-9499-633a204bc309.png">
+   <p align="center">
+   <img width="640" alt="Example of intro text" src="../.screenshots/part-4/3-intro-projects.png">
+   </p>
 
 4. Let's add some footer fixes
 
@@ -140,7 +146,9 @@
    }
    ```
 
-   <img width="1271" alt="Screen_Shot_2020-08-06_at_7 33 09_PM" src="https://user-images.githubusercontent.com/38872354/91758195-720ebb80-eb84-11ea-9ffc-131dfef40b71.png">
+   <p align="center">
+   <img width="640" alt="Example of intro text" src="../.screenshots/part-4/4-contact.png">
+   </p>
 
 **Change Background Colour**
 
@@ -172,7 +180,9 @@ Then add this before and after the `about-grid`
 <hr />
 ```
 
-<img width="1277" alt="Screen_Shot_2020-08-06_at_7 35 03_PM" src="https://user-images.githubusercontent.com/38872354/91758198-72a75200-eb84-11ea-8f53-4decf2c4d7d4.png">
+<p align="center">
+   <img width="560" alt="Example of intro text" src="../.screenshots/part-4/5-colored-background.png">
+   </p>
 
 **Change text color**
 

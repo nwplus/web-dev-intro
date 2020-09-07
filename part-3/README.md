@@ -20,7 +20,9 @@ p {
 - `p` is the selector - this is the element we want to stylize
 - each of the lines within the curly brackets `{ }` is a particular style that will be applied to the element selected (`p` in this case)
 
-<img width="735" alt="Screen_Shot_2020-08-06_at_4 41 28_PM" src="https://user-images.githubusercontent.com/38872354/91757845-dda45900-eb83-11ea-9b74-ddf3db460fbb.png">
+<p align="center">
+   <img width="400" alt="Example of intro italicized" src="../.screenshots/part-3/1-intro-italicized.png">
+   </p>
 
 While adding a CSS selector will select all HTML elements with a selected attribute, this may not be what we want. We will instead give the `p` element a specific identity that we can style. We will do this by adding a `class` attribute.
 
@@ -41,7 +43,9 @@ Corresponding HTML code if we wanted to use this class in HTML
 <h1 class="cool-class">Hemlo frens</h1>
 ```
 
-<img width="420" alt="Screen_Shot_2020-08-06_at_4 42 30_PM" src="https://user-images.githubusercontent.com/38872354/91757850-de3cef80-eb83-11ea-9122-10013450f356.png">
+<p align="center">
+   <img width="400" alt="Example of intro text" src="../.screenshots/part-3/2-intro-green-font.png">
+   </p>
 
 **ID Selector**
 
@@ -171,7 +175,9 @@ Example
 }
 ```
 
-<img width="1278" alt="Screen_Shot_2020-08-06_at_4 45 57_PM" src="https://user-images.githubusercontent.com/38872354/91757853-ded58600-eb83-11ea-9b9e-4f951d069902.png">
+<p align="center">
+   <img width="640" alt="Example of intro text" src="../.screenshots/part-3/3-intro-devtools.png">
+   </p>
 
 - `margin: 0 auto;` means no margin for top-bottom, and auto margins for left-right
 
@@ -191,7 +197,9 @@ Example
 }
 ```
 
-<img width="1278" alt="Screen_Shot_2020-08-06_at_5 02 06_PM" src="https://user-images.githubusercontent.com/38872354/91757856-df6e1c80-eb83-11ea-90d6-ea06d639c2b5.png">
+<p align="center">
+   <img width="560" alt="Example of intro text" src="../.screenshots/part-3/4-intro-centered.png">
+   </p>
 
 3. Let's arrange the about portion to have two columns with the first half on the left and second half on the right
 
@@ -228,13 +236,20 @@ Example
 }
 ```
 
-<img width="1272" alt="Screen_Shot_2020-08-06_at_5 19 18_PM" src="https://user-images.githubusercontent.com/38872354/91757857-df6e1c80-eb83-11ea-8db2-b1f189f8dcdb.png">
-<img width="1280" alt="Screen_Shot_2020-08-06_at_5 20 33_PM" src="https://user-images.githubusercontent.com/38872354/91757858-e006b300-eb83-11ea-9603-b5be3cb6d866.png">
+<p align="center">
+   <img width="640" alt="Example of intro text" src="../.screenshots/part-3/5-intro-about.png">
+   </p>
+<p align="center">
+   <img width="640" alt="Example of intro text" src="../.screenshots/part-3/6-intro-about-devtools.png">
+   </p>
 
 4. To simulate a mobile screen, we can do cmd+(or ctrl)shift+m. Notice how the content looks very disproportional, like a zoomed-out version of the desktop site
-
-<img width="458" alt="Screen_Shot_2020-08-06_at_5 21 43_PM" src="https://user-images.githubusercontent.com/38872354/91757859-e006b300-eb83-11ea-90c8-ca9f2a68f7ac.png">
-<img width="446" alt="Screen_Shot_2020-08-06_at_5 24 53_PM" src="https://user-images.githubusercontent.com/38872354/91757862-e09f4980-eb83-11ea-9fb7-f4836dc2ae75.png">
+      <p align="center">
+         <img width="480" alt="Example of intro text" src="../.screenshots/part-3/7-intro-about-projects-devtools.png">
+         </p>
+   <p align="center">
+      <img width="480" alt="Example of intro text" src="../.screenshots/part-3/8-intro-responsive.png">
+      </p>
 
 - we can make our site more responsive by instructing our browser to show the webpage in mobile size
 - Let's add this `meta` tag before the closing `head` tag
@@ -251,7 +266,9 @@ Example
 - `width=device-width` sets the width of page to follow the screen-width of the device
 - `initial-scale=1.0` sets the initial zoom level when the page is first loaded
 
-<img width="455" alt="Screen_Shot_2020-08-06_at_5 35 41_PM" src="https://user-images.githubusercontent.com/38872354/91757863-e137e000-eb83-11ea-8cce-9ffd46e54a2f.png">
+<p align="center">
+   <img width="320" alt="Example of intro text" src="../.screenshots/part-3/9-intro-responsive-small.png">
+   </p>
 
 5. Another thing we'd like to do is have the about sections one below another on mobile devices. Let's write a media query for that, defining the breakpoint as `480px`
 
@@ -263,8 +280,12 @@ Example
 }
 ```
 
-<img width="353" alt="Screen_Shot_2020-08-06_at_5 39 27_PM" src="https://user-images.githubusercontent.com/38872354/91757864-e137e000-eb83-11ea-9e58-c2107c1ea234.png">
-<img width="685" alt="Screen_Shot_2020-08-06_at_5 40 09_PM" src="https://user-images.githubusercontent.com/38872354/91757866-e1d07680-eb83-11ea-8957-76e425b34d52.png">
+<p align="center">
+   <img width="320" alt="Example of intro text" src="../.screenshots/part-3/10-intro-responsive-smaller.png">
+   </p>
+   <p align="center">
+   <img width="400" alt="Example of intro text" src="../.screenshots/part-3/11-intro-responsive-med.png">
+   </p>
 
 6. Let's make similar changes to the projects section - 2x2 on desktop, 4x1 on mobile
 
@@ -299,8 +320,12 @@ Example
 }
 ```
 
-<img width="1270" alt="Screen_Shot_2020-08-06_at_5 47 29_PM" src="https://user-images.githubusercontent.com/38872354/91757867-e1d07680-eb83-11ea-860f-0bc4b9f6b03d.png">
-<img width="336" alt="Screen_Shot_2020-08-06_at_5 47 49_PM" src="https://user-images.githubusercontent.com/38872354/91757869-e2690d00-eb83-11ea-91f0-162f72af5888.png">
+<p align="center">
+   <img width="560" alt="Example of intro text" src="../.screenshots/part-3/12-projects.png">
+   </p>
+   <p align="center">
+   <img width="400" alt="Example of intro text" src="../.screenshots/part-3/13-projects-responsive-small.png">
+   </p>
 
 7. Let's split the contact section as well, by 30-70
 
@@ -343,6 +368,8 @@ Example
 }
 ```
 
-<img width="750" alt="Screen_Shot_2020-08-06_at_6 15 16_PM" src="https://user-images.githubusercontent.com/38872354/91758139-5b686480-eb84-11ea-9a36-ddd89bb93bd2.png">
+<p align="center">
+   <img width="560" alt="Example of intro text" src="../.screenshots/part-3/14-contact.png">
+   </p>
 
 ‼️ **Challenge** ‼️
