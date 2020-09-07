@@ -48,13 +48,19 @@ hr {
 }
 
 .about-section {
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 
 .about-list {
   list-style: none;
+  text-align: left;
   padding: 0;
+  margin-left: 56px;
+}
+
+.about-subheading {
+  margin-left: 48px;
 }
 
 @media (max-width: 480px) {

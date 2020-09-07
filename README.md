@@ -2,7 +2,7 @@
   <img height="150" src=".screenshots/nwplus-logo.png">
 </p>
 
-# ✨Getting Started with Your Portfolio Website 🌌
+# ✨ Getting Started with Your Portfolio Website
 
 Hey there! 👋 So you want to learn web development, but don't know where to start? Worry not, we are here to guide you through the practicalities of web dev by teaching you the fundamentals of HTML/CSS!
 
@@ -14,6 +14,28 @@ Being comfortable with the fundamentals will allow you to pick up popular front-
 2. [Designing & building a wireframe](part-2/README.md)
 3. [Adding CSS & implementing responsive web design](part-3/README.md)
 4. [Adding advanced styling](part-4/README.md)
+
+## 🌌 The finished product
+
+Your finished portfolio will look similar to this, with minor differences in content
+
+#### Intro & About sections
+
+<p align="center">
+  <img width="560" src=".screenshots/intro.jpg">
+</p>
+
+#### Projects section
+
+<p align="center">
+<img width="560" src=".screenshots/projects.jpg">
+</p>
+
+#### Contact section
+
+<p align="center">
+  <img width="560" src=".screenshots/contact.jpg">
+  </p>
 
 ## Want to learn more? We recommend you check out these resources
 
