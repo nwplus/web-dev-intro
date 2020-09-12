@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center" style="margin-bottom: 0">
   <img height="200" src=".screenshots/nwplus-logo.png">
 </p>
 
