@@ -8,6 +8,19 @@ Hey there! 👋 So you want to learn web development, but don't know where to st
 
 Being comfortable with the fundamentals will allow you to pick up popular front-end frameworks (e.g. React, Angular, Vue) with more ease. You will come out of this workshop with something useful you can further enhance to use as your portfolio when showcasing your skills to recruiters, or future employers. To take this even further, we will show you how to deploy your portfolio to GitHub pages (Although this is optional, we highly recommend you try this out).
 
+## Pre-workshop checklist
+
+- [x] **A text editor:** to write code (e.g. **Visual Studio Code - Recommended**, Notepad++, Sublime Text, Atom, GNU Emacs, or VIM), or a hybrid editor (e.g. Dreamweaver or WebStorm)
+- [ ] **A web browser**, to test code in. (e.g. **Chrome - Recommended**, Firefox, Opera, Safari, Internet Explorer and Microsoft Edge.)
+
+**_Nice-to-have/Optional:_**
+
+- [ ] **Version control system**: Git
+- [ ] Basic understanding of programming concepts
+- [ ] Basic terminal commands
+- [ ] Lynx, a text-based terminal web browser - great for seeing how the site is experienced by visually-impaired users.
+- [ ] VS Code Live Sharing Plugin - easy to share code when requiring assistance from TA
+
 ## We have split the project into four parts
 
 1. [Creating `index.html`](part-1/README.md)
