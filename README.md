@@ -1,12 +1,12 @@
 <p align="center">
-  <img height="150" src=".screenshots/nwplus-logo.png">
+  <img height="200" src=".screenshots/nwplus-logo.png">
 </p>
 
 # ✨ Getting Started with Your Portfolio Website
 
 Hey there! 👋 So you want to learn web development, but don't know where to start? Worry not, we are here to guide you through the practicalities of web dev by teaching you the fundamentals of HTML/CSS!
 
-Being comfortable with the fundamentals will allow you to pick up popular front-end frameworks (e.g. React, Angular, Vue) with more ease. You will come out of this workshop with something useful you can further enhance to use as your portfolio when showcasing your skills to recruiters, or future employers. Additionally, we will show you how to deploy your portfolio to GitHub pages.
+Being comfortable with the fundamentals will allow you to pick up popular front-end frameworks (e.g. React, Angular, Vue) with more ease. You will come out of this workshop with something useful you can further enhance to use as your portfolio when showcasing your skills to recruiters, or future employers. To take this even further, we will show you how to deploy your portfolio to GitHub pages (Although this is optional, we highly recommend you try this out).
 
 ## We have split the project into four parts
 
