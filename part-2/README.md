@@ -1,6 +1,6 @@
 # Part 2: Designing & building a wireframe
 
-<img align="left" width="400" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.png">
+<img align="left" width="500" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.png">
 
 Here's why you should start with a wireframe when you first start building out your portfolio, or any website:
 - They help you plan out the structural information of the page, and usually represents the initial product concept (with styling, color, and graphics kept to a minimum) - you want to have a big-picture idea of what you're building before you first build it.
