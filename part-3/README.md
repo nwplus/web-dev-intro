@@ -369,5 +369,3 @@ Example
 <p align="center">
    <img width="560" alt="Example of intro text" src="../.screenshots/part-3/14-contact.png">
    </p>
-
-‼️ **Challenge** ‼️
