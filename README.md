@@ -6,20 +6,21 @@
 
 Hey there! 👋 So you want to learn web development, but don't know where to start? Worry not, we are here to guide you through the practicalities of web dev by teaching you the fundamentals of HTML/CSS!
 
-Being comfortable with the fundamentals will allow you to pick up popular front-end frameworks (e.g. React, Angular, Vue) with more ease. You will come out of this workshop with something useful you can further enhance to use as your portfolio when showcasing your skills to recruiters, or future employers. To take this even further, we will show you how to deploy your portfolio to GitHub pages (Although this is optional, we highly recommend you try this out).
+Being comfortable with the fundamentals will allow you to pick up popular front-end frameworks (e.g. React, Angular, Vue) with more ease. You will come out of this workshop with a portfolio which you can further enhance to showcase your skills to recruiters or future employers!
 
 ## Pre-workshop checklist
-
-- [x] **A text editor:** to write code (e.g. **Visual Studio Code - Recommended**, Notepad++, Sublime Text, Atom, GNU Emacs, or VIM), or a hybrid editor (e.g. Dreamweaver or WebStorm)
+- [ ] **A text editor** to write code: there are many options out there, we recommend **[VS Code](https://code.visualstudio.com/)** as it has some good extensions that would make your coding experience a lot better. _Setting up VS Code is a breeze, see our instructions below_
 - [ ] **A web browser**, to test code in. (e.g. **Chrome - Recommended**, Firefox, Opera, Safari, Internet Explorer and Microsoft Edge.)
 
-**_Nice-to-have/Optional:_**
+#### Optional (but highly recommended) VS Code Setup
+_:clock1: Estimated setup time: 5-7 minutes_
 
-- [ ] **Version control system**: Git
-- [ ] Basic understanding of programming concepts
-- [ ] Basic terminal commands
-- [ ] Lynx, a text-based terminal web browser - great for seeing how the site is experienced by visually-impaired users.
-- [ ] VS Code Live Sharing Plugin - easy to share code when requiring assistance from TA
+Below are the steps for setting up our recommended text editor, VS Code, along with a few extensions that we think would be useful! 
+1. Install [VS Code](https://code.visualstudio.com/)
+2. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension - this will enable instant browser reload with changes to your code, without you having to hit save to see your changes on the browser.
+3. Install the [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack) extension - this will allow you to share your code with us if you ever need help :)
+    - Note that for this extension, you will need either a [GitHub](https://github.com/) or [Microsoft](https://account.microsoft.com/account?lang=en-ie) account to login to begin any Live Share sessions.
+4. Install [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) so that your HTML/CSS code can be automatically formatted.
 
 ## We have split the project into four parts
 
