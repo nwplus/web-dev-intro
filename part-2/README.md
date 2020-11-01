@@ -1,6 +1,6 @@
 # Part 2: Designing & building a wireframe
 
-<img align="left" width="400" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.png">
+<img align="left" width="300" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.png">
 
 Let's start with a mockup of how we are going to compartmentalize our page into sections. We roughly have these sections:
 ```
@@ -16,10 +16,11 @@ Let's start with a mockup of how we are going to compartmentalize our page into 
   - Links
   - Contact form
 ```
+<br />
 
 <hr />
 
-**Intro**
+#### Intro
 
 The intro contains an image (profile picture), heading (name), and subheading (title blurb)
 
