@@ -1,11 +1,9 @@
 # Part 2: Designing & building a wireframe
 
-<p align="center">
-<img width="400" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.png">
-</p>
+<img align="left" width="400" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.png">
 
 Let's start with a mockup of how we are going to compartmentalize our page into sections. We roughly have these sections:
-
+```
 - Intro
   - Profile picture
   - Name
@@ -17,6 +15,9 @@ Let's start with a mockup of how we are going to compartmentalize our page into 
 - Contact
   - Links
   - Contact form
+```
+
+<hr />
 
 **Intro**
 
@@ -35,6 +36,8 @@ We can start with the following code snippet (going in between `<body> </body>`)
 <p align="center">
 <img width="400" alt="Intro" src="../.screenshots/part-2/2-intro.png">
 </p>
+
+<hr />
 
 **About**
 
@@ -80,6 +83,8 @@ How this code looks like when you reload your tab on Chrome displaying `index.ht
 <img width="400" alt="About section" src="../.screenshots/part-2/3-about.png">
 </p>
 
+<hr />
+
 **Projects**
 
 The projects section will contain four projects. You'll notice in our wireframe that we're planning on arranging then in a 2x2 grid. We'll be able to do that with CSS later on, but for now, let's add the following snippet
@@ -99,6 +104,8 @@ How this looks like when you reload your `index.html` tab
 <p align="center">
 <img width="560" alt="Projects section" src="../.screenshots/part-2/4-projects.png">
 </p>
+
+<hr />
 
 **Contact**
 
