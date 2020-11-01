@@ -1,6 +1,6 @@
 # Part 2: Designing & building a wireframe
 
-<img align="left" width="300" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.png">
+<img align="left" width="400" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.png">
 
 Let's start with a mockup of how we are going to compartmentalize our page into sections. We roughly have these sections:
 ```
@@ -16,11 +16,11 @@ Let's start with a mockup of how we are going to compartmentalize our page into 
   - Links
   - Contact form
 ```
-<br />
+### Let's get started building!
+### :construction_worker:
+### :arrow_down:
 
-<hr />
-
-#### Intro
+## Intro
 
 The intro contains an image (profile picture), heading (name), and subheading (title blurb)
 
@@ -38,9 +38,8 @@ We can start with the following code snippet (going in between `<body> </body>`)
 <img width="400" alt="Intro" src="../.screenshots/part-2/2-intro.png">
 </p>
 
-<hr />
 
-**About**
+## About
 
 The About section has a text snippet and a subheading followed by a list. Write the following under the ending `</div>` for the Intro section (replacing content inside the square brackets with whatever applies to you)
 
@@ -86,7 +85,7 @@ How this code looks like when you reload your tab on Chrome displaying `index.ht
 
 <hr />
 
-**Projects**
+## Projects
 
 The projects section will contain four projects. You'll notice in our wireframe that we're planning on arranging then in a 2x2 grid. We'll be able to do that with CSS later on, but for now, let's add the following snippet
 
@@ -108,7 +107,7 @@ How this looks like when you reload your `index.html` tab
 
 <hr />
 
-**Contact**
+## Contact
 
 The contact section contains links of where people can learn more about you or contact you (for example, GitHub, LinkedIn, email, or anything else you feel is relevant).
 
