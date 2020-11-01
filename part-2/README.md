@@ -1,7 +1,7 @@
 # Part 2: Designing & building a wireframe
 
 <p align="center">
-<img width="400" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.jpg">
+<img width="400" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.png">
 </p>
 
 Let's start with a mockup of how we are going to compartmentalize our page into sections. We roughly have these sections:
