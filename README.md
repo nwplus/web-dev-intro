@@ -36,7 +36,7 @@ An alternate way of installing extensions is by searching up the extension you w
 
 <img width="302" alt="Screen Shot 2020-11-01 at 11 38 28 AM" src="https://user-images.githubusercontent.com/38872354/97812551-c55dc280-1c36-11eb-8288-c6b3f8afc01e.png">
 You can search up the extension, then follow steps 4-5 above to proceed with the installation.
-For a more detailed guide, VS Code has a great page for this: https://code.visualstudio.com/docs/introvideos/extend
+For a more detailed guide, VS Code has a great tutorial for this: https://code.visualstudio.com/docs/introvideos/extend
 
 
 
