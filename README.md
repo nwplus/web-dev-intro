@@ -13,9 +13,7 @@ Being comfortable with the fundamentals will allow you to pick up popular front-
 - [ ] **A web browser**, to test code in. (e.g. **Chrome - Recommended**, Firefox, Opera, Safari, Internet Explorer and Microsoft Edge.)
 
 #### Optional (but highly recommended) VS Code Setup
-_:clock1: Estimated setup time: 5-7 minutes_
-
-Below are the steps for setting up our recommended text editor, VS Code, along with a few extensions that we think would be useful! 
+Below are the steps for setting up our recommended text editor, VS Code, along with a few extensions that we think would be useful! _:clock1: Estimated setup time: 5-7 minutes_
 1. Install [VS Code](https://code.visualstudio.com/)
 2. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension - this will enable instant browser reload with changes to your code, without you having to hit save to see your changes on the browser.
 3. Install the [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack) extension - this will allow you to share your code with us if you ever need help :)
