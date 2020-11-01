@@ -2,7 +2,13 @@
 
 <img align="left" width="400" alt="Portfolio mockup" src="../.screenshots/part-2/1-mockup.png">
 
-Let's start with a mockup of how we are going to compartmentalize our page into sections. We roughly have these sections:
+Here's why you should start with a wireframe when you first start building out your portfolio, or any website:
+- They help you plan out the structural information of the page, and usually represents the initial product concept (with styling, color, and graphics kept to a minimum) - you want to have a big-picture idea of what you're building before you first build it.
+- Wireframes are easy to make - they can be drawn by hand or created digitally (e.g. on Sketch, or Figma), depending on how much detail is required
+
+Wireframing is most commonly done by designers in a team setting, but it is important for developers to be able to translate designs into code. 
+
+Let's start with a super simple wireframe of how we are going to compartmentalize our page into sections! 
 ```
 - Intro
   - Profile picture
@@ -16,9 +22,6 @@ Let's start with a mockup of how we are going to compartmentalize our page into 
   - Links
   - Contact form
 ```
-### Let's get started building!
-### :construction_worker:
-### :arrow_down:
 
 ## Intro
 
