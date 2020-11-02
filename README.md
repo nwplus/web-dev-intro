@@ -26,9 +26,12 @@ Below we'll go over how you would install extensions from the VS Code online Mar
 1. Navigate to the online Marketplace link we provided for the Live Server extension: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 2. Click on "Install" 
 <img width="600" alt="Screen Shot 2020-11-01 at 11 28 31 AM" src="https://user-images.githubusercontent.com/38872354/97812312-63508d80-1c35-11eb-806e-13061ab133eb.png">
-3. You will be prompted from your browser to allow VS Code to be opened to continue the installation
+
+3. You will be prompted from your browser to allow VS Code to be opened to continue the installation.
+
 4. When the extension is opened on VS Code, click on "Install".
 <img width="600" alt="Screen Shot 2020-11-01 at 11 33 11 AM" src="https://user-images.githubusercontent.com/38872354/97812414-086b6600-1c36-11eb-87f5-26506473c796.png">
+
 5. Upon successful installation of this extension, you will see this message next to the uninstall button: `This extension is enabled globally`. Voilà, you're all set! 
 <img width="600" alt="Screen Shot 2020-11-01 at 11 33 57 AM" src="https://user-images.githubusercontent.com/38872354/97812428-22a54400-1c36-11eb-9f32-3b94d8e080e0.png">
 
