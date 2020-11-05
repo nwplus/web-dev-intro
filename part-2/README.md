@@ -169,7 +169,7 @@ Add this code snippet underneath the `</ul>` element from above
     <label for="message">
       Message: <textarea id="message">Your Message</textarea>
     </label>
-    <input />
+    <input type="submit" />
   </form>
 </div>
 ```
