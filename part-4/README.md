@@ -95,7 +95,7 @@
      <h3 class="heading">Contacc</h3>
      <div class="contact">
        <div class="links">
-         <h4 **class="form-heading" **>Links</h4>
+         <h4 class="form-heading">Links</h4>
          <ul class="links-list">
            <!-- List content -->
          </ul>
