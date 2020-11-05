@@ -112,7 +112,7 @@
              <textarea id="message">Your Message</textarea>
            </label>
            <div class="submit-button-wrapper">
-             <input type="submit" valid="Send Message" />
+             <input type="submit" />
            </div>
          </form>
        </div>
