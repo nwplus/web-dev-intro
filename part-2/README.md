@@ -162,14 +162,14 @@ Add this code snippet underneath the `</ul>` element from above
 
 ```html
 <div>
-  <form action="#">
+  <form>
     <label for="email">
       Email: <input type="email" id="email" placeholder="Enter your email" />
     </label>
     <label for="message">
       Message: <textarea id="message">Your Message</textarea>
     </label>
-    <input type="submit" />
+    <input />
   </form>
 </div>
 ```

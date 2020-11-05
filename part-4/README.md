@@ -102,7 +102,7 @@
        </div>
 
        <div>
-         <form action="#">
+         <form>
            <label for="email">
              <h4 class="form-heading">Email</h4>
              <input type="email" id="email" placeholder="Enter your email" />
@@ -112,7 +112,7 @@
              <textarea id="message">Your Message</textarea>
            </label>
            <div class="submit-button-wrapper">
-             <input type="submit" />
+             <input />
            </div>
          </form>
        </div>
