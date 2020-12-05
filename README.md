@@ -4,7 +4,7 @@
 
 # ✨ Getting started with web dev: building your first portfolio
 
-Hey there! 👋 So you want to learn web development, but don't know where to start? Worry not, we are here to guide you through the practicalities of web dev by teaching you the fundamentals of HTML/CSS!
+Hey there! 👋 So you want to learn web development, but don't know where to start? Worry not, we are here to guide you through the basics of web dev by teaching you the fundamentals of HTML/CSS!
 
 Being comfortable with the fundamentals will allow you to pick up popular front-end frameworks (e.g. React, Angular, Vue) with more ease. You will come out of this workshop with a portfolio which you can further enhance to showcase your skills to recruiters or future employers!
 
