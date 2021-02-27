@@ -3,7 +3,7 @@
 **Applying placeholders with your own images**
 
 1.  To better organize our images, let's make a file called `images` in the root level of our application
-2.  Download the images: <link to zip>
+2.  Download the images: https://drive.google.com/drive/folders/1SmU_BWpr41sqn-jpaG_5Qs5qEc7mTuXH?usp=sharing
 3.  Replace the profile picture `<img src="https://via.placeholder.com/150" />` with
 
     ```html
