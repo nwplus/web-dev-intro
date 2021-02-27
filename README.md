@@ -2,7 +2,7 @@
   <img height="200" src=".screenshots/nwplus-logo.png">
 </p>
 
-# ✨ Getting started with web dev: building your first portfolio
+# ✨ Intro to web dev: building your first portfolio
 
 Hey there! 👋 So you want to learn web development, but don't know where to start? Worry not, we are here to guide you through the basics of web dev by teaching you the fundamentals of HTML/CSS!
 
